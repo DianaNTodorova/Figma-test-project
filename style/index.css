@@ -33,7 +33,7 @@ header {
   margin-top: 55px;
   padding-left: 0px;
   margin-left: 116px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -58,7 +58,7 @@ header {
 }
 .element_login {
   padding-right: 40px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -76,7 +76,7 @@ header {
   color: #ffffff;
   border: none;
   border-radius: 6px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -91,7 +91,7 @@ header {
   width: 100%;
   margin-left: 200px;
   margin-top: 203px;
-  font-family: "Ramaraja";
+  font-family: "Ramaraja", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -106,7 +106,7 @@ header {
   width: 100%;
   margin-left: 200px;
   margin-top: 10px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -120,7 +120,7 @@ header {
   margin-left: 200px;
   width: 152px;
   height: 64px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -132,4 +132,7 @@ header {
   border: none;
   border-radius: 6px;
   background-color: #824ff1;
+}
+.box_selections {
+  display: inline-block;
 }
