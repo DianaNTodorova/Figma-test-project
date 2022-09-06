@@ -1,9 +1,10 @@
-.header_left {
-  display: inline-block;
+header {
+  display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
-  width: 65%;
 }
+
 .header_left_conbine {
   display: flex;
   justify-items: left;
@@ -32,29 +33,64 @@
   margin-top: 55px;
   padding-left: 0px;
   margin-left: 116px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
 }
 .box_list {
   margin-right: 40px;
 }
 .header_right {
-  display: inline-block;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 30%;
 }
 .nav_right {
   align-items: right;
-  max-width: 179px;
+  margin-top: 48px;
+  margin-right: 68px;
+  justify-content: space-between;
 }
-button {
+.element_login {
+  padding-right: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+.button_login {
   width: 120px;
   height: 60px;
   padding: 0px;
+  background-color: #824ff1;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title_text {
   max-width: 495px;
   width: 100%;
+  margin-left: 200px;
+  margin-top: 203px;
   font-family: "Ramaraja";
   font-style: normal;
   font-weight: 400;
@@ -66,6 +102,10 @@ button {
 }
 
 .decription_text {
+  max-width: 590px;
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 10px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -76,6 +116,10 @@ button {
   color: #9a9a9a;
 }
 .button_learn {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 152px;
+  height: 64px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -85,4 +129,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  background-color: #824ff1;
 }
