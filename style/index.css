@@ -51,3 +51,38 @@ button {
   height: 60px;
   padding: 0px;
 }
+
+.title_text {
+  max-width: 495px;
+  width: 100%;
+  font-family: "Ramaraja";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+.decription_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+.button_learn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
